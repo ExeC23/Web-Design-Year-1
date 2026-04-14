@@ -1,0 +1,73 @@
+.story-script-regular {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+  width: 100;
+}
+body{
+	width:90%;
+	background-image:url(images/myBackground.png);
+	
+}
+button{
+	text-decoration:none;
+	border:none;
+	background:none;
+}
+
+.button1{
+	position:relative;
+	margin-left:30%;
+	width:300px;
+	height:100px;
+	font-size: 400;
+	
+	
+}
+.button2{
+	position:relative;
+	margin-left:10%;
+	width:300px;
+	height:100px;
+	font-size: 400;
+}
+.heading{
+	text-align:center;
+	font-family: "Story Script", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	
+}
+.text{
+	text-align:center;
+	font-family: "Open Sans", sans-serif;
+
+	font-weight: 400;
+	font-style: normal;
+
+}
+.img{
+	margin-left:20px;
+	margin-bottom:10px;
+}
+.table{
+	margin-right:20px;
+	margin-left:auto;
+}
+.tb{
+	border:2px solid black;
+	margin:0px;
+}
+.list{
+	text
+}
