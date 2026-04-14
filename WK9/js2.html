@@ -1,0 +1,36 @@
+<!docctype html>
+	<html lang="en">
+		<head>
+		
+		</head>
+		<body>
+			<button onclick="button1()"> Name</button>
+			<button onclick="button2()"> calculate</button>
+			<button onclick="button3()"> sss</button>
+			<button onclick="button4()"> sss</button>
+			<p id="demo"></p>
+			<p id="demo2" onmouseover="button3()">sss</p>
+			<script>
+				function button1(){
+					let name = prompt("Enter your name","");
+					document.write("Hello " + name+ "!");
+					<!-- button1(name); -->
+				}
+				function calcArea(width, length){
+					let area = width * length;
+					return area;
+				}
+				function button2(){
+					let num1 = prompt("First number")
+					let num2 = prompt("Second number")
+					let floor = calcArea(num1, num2);
+					document.write("The area is "+floor);
+				}
+				function button3(){
+					document.getElementById("demo").innerHTML = "Hi";
+				}
+			
+		
+			</script>
+		</body>
+	</html>

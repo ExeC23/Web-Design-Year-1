@@ -1,0 +1,56 @@
+<!doctype html>
+	<html lang="en">
+		<head>
+			<title>MyBank</title>
+			<link rel="stylesheet" href="bankstyle.css">
+		</head>
+		<body>
+			<div class="row1">
+				<button class="homebutton" onclick="window.location.href='https://www.google.com'">Home</button>
+				<img class="logo" src="logo.png"></img>
+				<select class="lang" onchange="window.location.href=this.value;">
+					<label>Language</label>
+					<option value=bank.html">En</option>
+					<option value=bankde.html">DE</option>
+					<option value=bankru.html">RU</option>
+					<option value=banktr.html">TR</option>
+				</select>
+			</div>
+			<div class="row2">
+				<form>
+					<div class="personalid">
+						<label>Personal ID</label>
+						<input name="fullname" type="text"></input>
+					</div>
+					<div class="password">
+						<label>Password</label>
+						<input class="pass" name="password" type="password"></input>
+					</div>
+					<div class="staysign">
+						<label>Stay Signed in</label>
+						<input name="staysignin" type="checkbox"></input>
+					</div>
+					<div class="submit">
+						<input class="submit" name="submit" type="submit"></input>
+					</div>	
+				</form>
+			</div>
+			<div class="row3">
+				<fieldset>
+					<legend>Your opinion about our bank</legend>
+					<input type="radio" id="good" value="GD" name="radio"
+						>
+					<label for="good">Good👌</label>
+					<br>
+					<input type="radio" id="bad" value="BD" name="radio">
+					<label for="bad">Bad😒</label>
+					<br>
+					</form>
+						<div class="submitradio">
+							<input class="submitradio" name="signin" type="submit"></input>
+						</div>
+					</form>
+				</fieldset>
+			</div>
+		</body>
+	</html>

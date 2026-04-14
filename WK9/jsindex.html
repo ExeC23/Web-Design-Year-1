@@ -1,0 +1,42 @@
+<!doctype html>
+	<html lang="en">
+		<head>
+			<title></title>
+			
+		</head>
+		<body>
+			<button onclick="button1()" >Show the result </button>
+			<button onclick="button2()" >The number </button>
+			<script>
+				let num1 = prompt("enter your first number",""); 
+				let num2 = prompt("enter your second number","");	 
+				if(num1 > num2) {
+					function button1(){alert("Number one bigger")} 
+				} else if(num1 < num2) { 
+					function button1(){alert("Number two is bigger")} 
+				} else if(num1 == num2) { 
+					function button1(){alert("They are equal")} 
+				};
+				<!-- &&=and !=not ||=or  -->
+				let age = prompt("What is your age","")
+				let speed = prompt("What is your speed","")
+				if(speed > 80 && age < 17){
+					alert("Four point penalty")
+				} else if(speed > 80 || age < 17){
+					alert("two point penalty")
+				} else {
+					alert("No penalty")
+				};
+				let guesnum = prompt("Pick a number between 1-10","");
+				let rightans = Math.floor(Math.random() * 10) + 0;
+				if (guesnum == rightans){
+					alert("Right answer")
+				}else{
+					alert("Loser")
+				};
+				function button2(){alert(rightans)};
+				
+			</script>
+		</body>
+	</html>
+	

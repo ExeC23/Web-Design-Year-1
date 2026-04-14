@@ -1,0 +1,26 @@
+<!doctype html>
+	<html lang="en">
+		<head>
+			<title></title>
+		</head>
+		<body>
+			<form>
+				<label>enter your name</label>
+				<input type="text" id="getData2">
+			</form>
+			<button onclick="getTheData2()">submit</button>
+			<button onclick="button1()">sssssss</button>
+			<p id="getData">Data from the paragraph</p>
+			<script>
+				function button1(){
+					let txt = document.getElementById("getData");
+					alert(txt.innerHTML);
+				}
+				document.getElementById("getData").style.display = "none";
+				function getTheData2(){
+					let txt = document.getElementById("getData2");
+					alert("getTheData2() " +txt.value);
+				}
+			</script>
+		</body>
+	</html>

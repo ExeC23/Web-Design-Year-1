@@ -1,0 +1,127 @@
+body{
+	background-color:red;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+} 
+img{
+	width:100%;
+	z-index:2;
+}
+p{
+	display:inline-table;
+	font-size:50px;
+	margin-bottom:2%;
+	margin-top:2%;
+	height:auto;
+}
+.sss{
+	position:sticky;
+	top:5px;
+	display:inline;
+	box-shadow:0px 0px 35px black inset;
+	border-radius:25px;
+	background-image:url("image1.jpg");
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body{background-color:orange;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+	p{
+		display:none;
+	}
+	h1{
+		font-size:5px;
+		background-color:blue;
+	}
+	p{
+		background-color:gray;
+	}
+	h3{
+		display:none;
+	}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  body{background-color:green;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+	h1{
+		font-size:10px;
+		background-color:orange;
+	}
+	p{
+		background-color:pink;
+	}
+	h3{
+		background-color:red;
+	}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body{background-color:pink;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+	h1{
+		font-size:25pxpx;
+		background-color:green;
+	}
+	p{
+		background-color:orange;
+	}
+	h3{
+		display:none;
+	}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body{background-color:white;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+	h1{
+		font-size:50px;
+		background-color:red;
+	}
+	p{
+		background-color:gold;
+	}
+	h3{
+		background-color:red;
+	}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body{background-color:black;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  	h1{
+		font-size:100px;
+		background-color:white;
+	}
+	p{
+		background-color:orangered;
+	}
+	h3{
+		display:none;
+
+	}
+}
+
+button{
+	position:absolute;
+	bottom:0;
+	z-index:1;
+	left:-5%;
+}

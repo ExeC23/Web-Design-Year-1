@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<title></title>
+			
+		</head>
+		<body>
+			<button onclick="button1()" >Times table </button>
+			<button onclick="button2()" >stop </button>
+			<button onclick="button3()" >Guess Game </button>
+			<button onclick="button4()" >Right answer </button>
+			<p class="sss"></p>
+			<script>
+				function button1(){
+					let sNumber = prompt ("Give a number for times table","");
+					let iNumber = parseInt(sNumber);
+					let aNumber = prompt ("How many times","");
+					let nT = parseInt(aNumber);
+				
+					//print the 3 times table up to 10
+					document.writeln("The times table of " + iNumber);
+					for(i = 0; i <= nT; i++){
+						//calculate
+						//print the result
+						let iResult = iNumber * i;
+						let sMassage = iNumber + " x " + i + " = " + iResult
+						document.writeln("<br>" + sMassage);
+					}
+				}
+				function button2(){
+					let sUserAnswer = prompt("Enter STOP to stop","");
+					
+					
+					while(sUserAnswer != "STOP"){
+						alert("OK, continue...");
+						sUserAnswer = prompt("Enter STOP to stop","");
+					}
+					alert("You told me to stop");
+				}
+				function button3(){
+					let iNumberOfGuesses = 1;
+					let iSecretNumber = Math.floor(Math.random() * 11) + 1;
+					document.writeln(iSecretNumber);
+					let iUserNumber = prompt("Pick a number between 1-10","");
+					while(iSecretNumber != iUserNumber && iNumberOfGuesses < 4){
+						alert("Wrong answer loser try again");
+						if(iSecretNumber > iUserNumber){
+							alert("Your number is lower")
+						}else{
+							alert("Your number is higher")
+						}
+						<!-- that increases the number of guesses -->
+						iNumberOfGuesses++;
+						iUserNumber = prompt("Pick a number between 1-10","");
+					};
+					if (iSecretNumber = iUserNumber && iNumberOfGuesses < 4){
+						alert("Wow You found it");
+					}else{
+						alert("Loser try again");
+					}
+
+
+				}
+				
+
+			</script>
+		</body>
+	</html>
+	

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+		<link href="styletue.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="formDiv">
+			<label for="text">User Name</label>
+			<input onkeyup="validateData()" id="userName" type="text">
+			<button id="button1" onclick="button1f()" disabled>Click Ulan</button>
+		</div>
+		<div id="logOut">
+			<h3 id="message"></h3>
+			<button onclick="logOutBut()">Logout</button>
+		</div>
+		<script>
+			let sLogOut = document.getElementById("logOut");
+			sLogOut.style.display = "none";
+			<!-- let sUserName, targetElementMassage, sformDiv, sLogOut, sendButton; -->
+			function validateData(){
+				let sUserName = document.getElementById("userName").value;
+				let targetElementMassage = document.getElementById("message");
+				let sformDiv = document.getElementById("formDiv");
+				let sLogOut = document.getElementById("logOut");
+				let sendButton = document.getElementById("button1");
+				if(sUserName.length > 2){
+					sendButton.disabled = false;
+				}else
+				sendButton.disabled = true;
+			}
+			function button1f(){
+				let sUserName = document.getElementById("userName").value;
+				let targetElementMassage = document.getElementById("message");
+				let sformDiv = document.getElementById("formDiv");
+				let sLogOut = document.getElementById("logOut");
+				let sendButton = document.getElementById("button1");
+				targetElementMassage.innerHTML = "Hello " + sUserName + "!";
+				sformDiv.style.display = "none";
+				sLogOut.style.display = "block";
+			}
+			
+			function logOutBut(){
+				let sendButton = document.getElementById("button1");
+				sendButton.disabled = true;
+				document.getElementById("userName").value = "";
+				let sformDiv = document.getElementById("formDiv");
+				let sLogOut = document.getElementById("logOut");
+				sformDiv.style.display = "block";
+				sLogOut.style.display = "none";
+			}
+		</script>
+	</body>
+</html>

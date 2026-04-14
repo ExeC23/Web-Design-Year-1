@@ -1,0 +1,51 @@
+
+selecter{:attribute:value;}
+
+
+.firsth {
+	position:absolute;
+	color:black;
+	top:15%;
+	right:40%;
+	text-shadow:2px 2px black;
+
+}
+.sech{
+	position:absolute;
+	color:black;
+	top:15%;
+	right:60%;
+	text-shadow:2px 2px black;
+
+}
+.thirdh{
+	position:absolute;
+	color:red;
+	top:10%;
+	text-align:center;
+	right:50%;
+
+}
+.par{
+	color:white;
+	position:absolute;
+	top:25%;
+	left:10%;
+	font-size:30px;
+	border:double 10px white;
+	width:1400px;
+	height:300px;
+	padding:5px;
+	margin:auto;
+	background-color:black;
+}
+span{
+	display:block;
+}
+body{
+	background-color:gold;
+}
+
+.blue{
+	color:blue;
+}

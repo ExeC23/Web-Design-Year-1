@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitcount+Prop+Single+Ink:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+body{
+	background-image:url("./pics/myBackground.jpg");
+	background-repeat:repeat;
+}
+p{
+	text-align:center;
+	color:orangered;
+	font-size:50px;
+	opacity:100%;
+
+}
+div{
+	margin:auto;
+	/* opacity:30%; */
+	/* background-color:white; */
+	/* border:2px solid black; */
+}
+.tx1{
+	font-family: "Roboto", sans-serif;
+}
+.tx2{
+	font-family: "Bitcount Prop Single Ink", system-ui;
+}
+.tx3{
+	font-family: "SUSE Mono", sans-serif;
+}
+.tx4{
+	font-family: "Rubik", sans-serif;
+}
+.tx5{
+	font-family: "Bebas Neue", sans-serif;
+}

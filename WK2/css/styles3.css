@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Bungee&family=Dancing+Script:wght@400..700&display=swap');
+
+.Bungee{
+	color:red;
+	font-family: "Bungee", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size:50px;
+	position:absolute;
+	left:30%;
+	margin:auto;
+}
+h3{
+	color:red;
+	font-family:"Bitcount Prop Double Ink", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	font-size:50px;
+	position:absolute;
+	left:30%;
+	top:20%;
+	margin:auto;
+}
+p{
+	font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-size:50px;
+	position:absolute;
+	left:30%;
+	top:30%;
+	margin:auto;
+}
+table{
+	background-color:black;
+	color:gold;
+	font-family: "Bungee", sans-serif;
+	font-weight: 400;
+	font-size:40px;
+	position:absolute;
+	top:50%;
+	left:30%;
+	border:white solid;
+}
+th, td {
+  padding: 10px;
+  border:white solid;
+  text-align:center;
+}
